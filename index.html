@@ -1,0 +1,46 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+ <meta charset="utf-8">
+ <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="main.css">
+ <title>電卓</title>
+ </head>
+ 
+ <body>
+ <div class="dentaku">
+   <div id="result" class="display">0</div>
+   <div>
+     <button type="button" class="button_size1" onclick=click_number(7);>7</button>
+     <button type="button" class="button_size1" onclick=click_number(8);>8</button>
+     <button type="button" class="button_size1" onclick=click_number(9);>9</button>
+     <button type="button" class="button_size1" onclick=plus();>+</button>
+   </div>
+   <div>
+     <button type="button" class="button_size1" onclick=click_number(4);>4</button>
+     <button type="button" class="button_size1" onclick=click_number(5);>5</button>
+     <button type="button" class="button_size1" onclick=click_number(6);>6</button>
+     <button type="button" class="button_size1" onclick=minus();>-</button>
+   </div>
+   <div>
+     <button type="button" class="button_size1" onclick=click_number(1);>1</button>
+     <button type="button" class="button_size1" onclick=click_number(2);>2</button>
+     <button type="button" class="button_size1" onclick=click_number(3)>3</button>
+     <button type="button" class="button_size1" onclick=times();>*</button>
+   </div>
+   <div>
+     <button type="button" class="button_size1" onclick=click_number(0);>0</button>
+     <button type="button" class="button_size1" onclick=zerozero();>00</button>
+     <button type="button" class="button_size1" onclick=dot();>.</button>
+     <button type="button" class="button_size1" onclick=divide();>/</button>
+   </div>
+   <div>
+     <button type="button" class="button_size2" onclick=ac();>AC</button>
+     <button type="button" class="button_size2" onclick=equal();>=</button>
+   </div>
+ </div>
+ <!-- ここに記述していきましょう！ -->
+ 
+ <script src="main.js"></script>
+ </body>
+ </html>
